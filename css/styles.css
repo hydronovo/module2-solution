@@ -1,0 +1,47 @@
+div > p {
+	text-align: justify;
+}
+
+.content-cell {
+	background-color: lightsteelblue;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+/* Not XS screen */
+@media (min-width:768px){
+	#collapsable-nav {
+		visibility: hidden;
+	}
+}
+
+/* XS screen */
+@media (max-width:767px){
+	
+	.navbar-brand {
+		margin-left: 15px;
+	}
+	
+	.content-cell {
+		margin: 15px
+	}
+	
+	#collapsable-nav {
+		background-color: lightgrey;
+	}
+	
+	#nav-list {		
+		margin-bottom: 1px;
+		margin-top: 0px;
+	}
+	
+	#nav-list li{
+		text-align: center;
+		border: 1px solid darkgray;
+		
+	}
+	#nav-list li:hover{
+		font-weight: bold;
+		background-color: lightsteelblue;
+	}
+}
